@@ -1,43 +1,46 @@
 {
-    "name": "slush-slush-webapp2nw",
-    "description": "Environment for developing hybrid application basic web app and node-webkit app",
-    "version": "0.0.1",
-    "homepage": "https://github.com/inafact/slush-slush-webapp2nw",
-    "author": {
-        "name": "Takanobu Inafuku",
-        "email": "takanobu.inafact@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/inafact/slush-slush-webapp2nw.git"
-    },
-    "bugs": {
-        "url": "https://github.com/inafact/slush-slush-webapp2nw/issues"
-    },
-    "licenses": [{
-        "type": "MIT",
-        "url": "https://github.com/inafact/slush-slush-webapp2nw/blob/master/LICENSE"
-    }],
-    "main": "slushfile.js",
-    "engines": {
-        "node": ">= 0.10.26",
-        "npm": ">=1.4.3"
-    },
-    "scripts": {
-        "test": "echo \"No tests\""
-    },
-    "dependencies": {
-        "slush": ">=1.0.0",
-        "gulp": "^3.6.2",
-        "gulp-template": "^0.1.1",
-        "gulp-install": "^0.1.4",
-        "gulp-conflict": "^0.1.1",
-        "gulp-rename": "^1.2.0",
-        "underscore.string": "^2.3.3",
-        "inquirer": "^0.4.1",
-        "iniparser": "^1.0.5"
-    },
-    "keywords": [
-        "slushgenerator"
-    ]
+  "name": "slush-nw-dev",
+  "description": "Environment for quick developing node-webkit application, with node-dev style reload/restart function",
+  "version": "0.0.1",
+  "homepage": "https://github.com/inafact/slush-nw-dev",
+  "author": {
+    "name": "Takanobu Inafuku",
+    "email": "takanobu.inafact@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/inafact/slush-nw-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/inafact/slush-nw-dev/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/inafact/slush-nw-dev/blob/master/LICENSE"
+    }
+  ],
+  "main": "slushfile.js",
+  "engines": {
+    "node": ">= 0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "slush": ">=1.0.0",
+    "gulp": "^3.6.2",
+    "gulp-template": "^0.1.1",
+    "gulp-install": "^0.1.4",
+    "gulp-conflict": "^0.1.1",
+    "gulp-rename": "^1.2.0",
+    "underscore.string": "^2.3.3",
+    "inquirer": "^0.4.1",
+    "iniparser": "^1.0.5",
+    "gulp-rimraf": "^0.1.0"
+  },
+  "keywords": [
+    "slushgenerator", "node-webkit"
+  ],
 }

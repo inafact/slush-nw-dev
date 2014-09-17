@@ -1,6 +1,6 @@
 /*
- * slush-slush-webapp2nw
- * https://github.com/inafact/slush-slush-webapp2nw
+ * slush-nw-dev
+ * https://github.com/inafact/slush-nw-dev
  *
  * Copyright (c) 2014, Takanobu Inafuku
  * Licensed under the MIT license.
@@ -14,7 +14,8 @@ var gulp = require('gulp'),
     template = require('gulp-template'),
     rename = require('gulp-rename'),
     _ = require('underscore.string'),
-    inquirer = require('inquirer');
+    inquirer = require('inquirer'),
+    rimraf = require('gulp-rimraf');
 
 function format(string) {
     var username = string.toLowerCase();
@@ -87,3 +88,35 @@ gulp.task('default', function (done) {
                 });
         });
 });
+
+
+/*
+ * for test
+ */
+gulp.task('clean', function(){
+    return gulp.src('./test', {read:false})
+        .pipe(rimraf());
+});
+
+gulp.task('test', ['clean'], function (done) {
+    defaults.appDescription = '';
+    defaults.appVersion = '0.1.0';
+    defaults.authorName = '';
+    defaults.appNameSlug = _.slugify(defaults.appName);
+    gulp.src(__dirname + '/templates/**')
+        .pipe(template(defaults))
+        .pipe(rename(function (file) {
+            if (file.basename[0] === '_') {
+                file.basename = '.' + file.basename.slice(1);
+            }
+        }))
+        .pipe(conflict('./'))
+        .pipe(gulp.dest('./test'))
+        .pipe(install())
+        .on('end', function () {
+            done();
+        });
+});
+/*
+ * ===
+ */

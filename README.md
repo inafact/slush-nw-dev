@@ -1,14 +1,14 @@
-# slush-webapp2nw [![Build Status](https://secure.travis-ci.org/inafact/slush-slush-webapp2nw.png?branch=master)](https://travis-ci.org/inafact/slush-slush-webapp2nw) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-slush-webapp2nw.png)](http://badges.enytc.com/for/npm/slush-slush-webapp2nw)
+# slush-nw-dev [![Build Status](https://secure.travis-ci.org/inafact/slush-nw-dev.png?branch=master)](https://travis-ci.org/inafact/slush-nw-dev) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-nw-dev.png)](http://badges.enytc.com/for/npm/slush-nw-dev)
 
-> Environment for developing hybrid application basic web app and node-webkit app
+> Environment for quick developing node-webkit application, with node-dev style reload/restart function.
 
 
 ## Getting Started
 
-Install `slush-slush-webapp2nw` globally:
+Install `slush-nw-dev` globally:
 
 ```bash
-$ npm install -g slush-slush-webapp2nw
+$ npm install -g slush-nw-dev
 ```
 
 ### Usage
@@ -16,13 +16,13 @@ $ npm install -g slush-slush-webapp2nw
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-slush-webapp2nw
+$ mkdir my-slush-nw-dev
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-slush-webapp2nw && slush slush-webapp2nw
+$ cd my-slush-nw-dev && slush slush-nw-dev
 ```
 
 ## Getting To Know Slush
@@ -35,10 +35,10 @@ To find out more about Slush, check out the [documentation](https://github.com/k
 
 ## Contributing
 
-See the [CONTRIBUTING Guidelines](https://github.com/inafact/slush-slush-webapp2nw/blob/master/CONTRIBUTING.md)
+See the [CONTRIBUTING Guidelines](https://github.com/inafact/slush-nw-dev/blob/master/CONTRIBUTING.md)
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/inafact/slush-slush-webapp2nw/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/inafact/slush-nw-dev/issues).
 
 ## License 
 

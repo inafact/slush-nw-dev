@@ -1,0 +1,23 @@
+{
+  "main": "index.html",
+  "node-main": "main.js",
+  "name": "<%= appName %>",
+  "description": "<%= appDescription %>",
+  "version": "<%= appVersion %>",
+  "keywords": [
+    "node-webkit"
+  ],
+  "window": {
+    "title": "<%= appName %>",
+    "toolbar": true,
+    "frame": true,
+    "width": 800,
+    "height": 540,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 200
+  },
+  "webkit": {
+    "plugin": true
+  }
+}
