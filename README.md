@@ -1,4 +1,5 @@
-# slush-nw-dev [![Build Status](https://secure.travis-ci.org/inafact/slush-nw-dev.png?branch=master)](https://travis-ci.org/inafact/slush-nw-dev) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-nw-dev.png)](http://badges.enytc.com/for/npm/slush-nw-dev)
+# slush-nw-dev
+<!-- [![Build Status](https://secure.travis-ci.org/inafact/slush-nw-dev.png?branch=master)](https://travis-ci.org/inafact/slush-nw-dev) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-nw-dev.png)](http://badges.enytc.com/for/npm/slush-nw-dev) -->
 
 > Environment for quick developing node-webkit application, with node-dev style reload/restart function.
 
@@ -33,9 +34,9 @@ Slush does not contain anything "out of the box", except the ability to locate i
 
 To find out more about Slush, check out the [documentation](https://github.com/klei/slush).
 
-## Contributing
+<!-- ## Contributing -->
 
-See the [CONTRIBUTING Guidelines](https://github.com/inafact/slush-nw-dev/blob/master/CONTRIBUTING.md)
+<!-- See the [CONTRIBUTING Guidelines](https://github.com/inafact/slush-nw-dev/blob/master/CONTRIBUTING.md) -->
 
 ## Support
 If you have any problem or suggestion please open an issue [here](https://github.com/inafact/slush-nw-dev/issues).
